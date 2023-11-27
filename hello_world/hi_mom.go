@@ -5,8 +5,10 @@ import (
     "time"
 )
 
+// go run hi_mom.go
+
 func greenting() string {
-    return "hi mom. the time is: " + time.Now().String()
+    return "hi mom, the time is: " + time.Now().String()
 }
 
 func main() {
